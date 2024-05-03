@@ -1,0 +1,127 @@
+.app{
+  width: 400px;
+  top:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:25px;
+  box-shadow: 0px 3px 10px 10px cyan;
+  border-radius:20px;
+  background-color: rgba(215, 223, 170, 0.548);
+}
+
+.income_expense,
+.transactionlist,
+.balance,
+.new_transaction{
+  width:100%;
+  box-shadow: 0px 3px 4px 2px gray;
+  border:none;
+  border-radius: 10px;
+  padding:5px;
+  margin-top:10px;
+  padding-top:0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.income_expense .income{
+  display:flex;
+  gap:50%;
+  margin-left:20px;
+  top:0;
+  padding:6px;
+  
+}
+.income_expense .income #income p{
+  color:rgb(14, 234, 14);
+}
+.income_expense .income #expense p{
+  color:red;
+}
+.transactionlist{
+  list-style: none;
+  padding:10px;
+  line-height: 25px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.new_transaction{
+  padding:10px;
+  line-height: 15px;
+  
+  
+}
+.balance p{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size:larger
+}
+.transactionlist .history li{
+  box-shadow: 2px 3px 4px 3px gray;
+  margin-bottom: 10px;
+  padding:4px;
+  cursor: pointer;
+}
+.transactionlist .history li:hover{
+  background-color: rgb(216, 68, 107);
+}
+.transactionlist .history li span{
+ display:inline;
+ margin-left: 60%;
+ color:goldenrod;
+}
+
+.transactionlist .history button{
+
+  margin-right:3px;
+  border: none;
+
+}
+.transactionlist .history button img{
+  width:20px;
+  height:20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: indigo;
+  border-radius: 40px;
+}
+
+.transactionlist .history button:hover{
+  background-color: rgba(245, 12, 12, 0.144);
+}
+
+.new_transaction .form label{
+  width:100%;
+  display: flex;
+  margin-bottom:10px;
+}
+.new_transaction .form input{
+  margin-bottom: 10px;
+  width:100%;
+  padding:4px;
+  margin-right:50px;
+  font-size: large;
+  border-radius: 5px;
+}
+
+.new_transaction button{
+  padding:10px;
+  place-items: center;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+h3{
+  box-shadow: 1px 2px 5px 3px blue;
+  padding-left:5px;
+  padding:5px;
+  border-radius: 5px;
+  color:rgb(143, 59, 222);
+}
+h1{
+  box-shadow: 1px 2px 10px 10px rgb(255, 98, 0);
+  padding:10px;
+  border-radius: 5px;
+  background-color: lightgrey;
+  color:rgb(235, 5, 227)
+  
+}
